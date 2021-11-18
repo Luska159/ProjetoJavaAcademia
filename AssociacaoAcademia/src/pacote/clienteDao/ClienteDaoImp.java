@@ -24,8 +24,6 @@ public class ClienteDaoImp implements ClienteDao {
     private PreparedStatement preparaInstrucao;
     private ResultSet resultado;
 
-    /*TÁ DIZENDO QUE ISSO AQUI TÁ RETORNANDO NULL*/
-
     @Override
     public void salvarCliente(EntidadeCliente entidadeCliente) throws SQLException {
 
